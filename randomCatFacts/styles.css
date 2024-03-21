@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://cdn.pixabay.com/animation/2023/10/20/11/35/11-35-55-636_512.gif");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 40vh;
+    background-attachment: fixed;
+    background-position: bottom;
+    color: white;
+
+}
+
+
+.container {
+    height: 55vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading-h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+}
+
+.btn-fact {
+    padding: 10px 50px;
+    background-color: #00ff08;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-fact:hover {
+    background-color: #0c4a0f;
+    color: white;
+}
+
+.factText {
+    font-size: 1.2em;
+}
+
+.error-display {
+    display: none;
+    color: red;
+}
